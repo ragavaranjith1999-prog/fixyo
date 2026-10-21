@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <title>Book Doorstep Service | FIXYO Home Services Madurai</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Local SEO Meta Tags -->
+    <meta name="description" content="Book AC repair, refrigerator, washing machine, electrical, and plumbing service in Madurai. Fast arrival, verified technicians, transparent pricing.">
+    <meta name="keywords" content="Book AC repair Madurai, appliance service booking, FIXYO booking, home service appointment Madurai">
+    <meta name="geo.region" content="IN-TN">
+    <meta name="geo.placename" content="Madurai">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            cyan: '#7DF9FF',
+                            electricCyan: '#00F3FF',
+                            teal: '#00C9B7',
+                            navy: '#0e0e33',
+                            darkNavy: '#000040',
+                            silver: '#D3D3D3',
+                            bg: '#F0EEE9',
+                            orange: '#EC5800',
+                            amber: '#FFA500',
+                            weght: '#ffffff',
+                            yellow: '#FFFF00'
+                        }
+                    },
+                    fontFamily: {
+                        heading: ['Montserrat', 'sans-serif'],
+                        body: ['Open Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="flex flex-col min-h-screen bg-gray-50">
+
+    <header class="sticky top-0 z-50 bg-brand-navy shadow-lg text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center space-x-3 cursor-pointer">
+                    <img src="/img asste/logo.jpeg" alt="FIXYO Home Services Logo" class="h-12 w-auto rounded-lg object-contain bg-white p-1" onerror="handleImageError(this)">
+                    <div class="hidden sm:block">
+                        <span class="text-2xl font-black tracking-wider text-white">FIX<span class="text-brand-electricCyan">YO</span></span>
+                        <p class="text-xs text-brand-cyan font-medium tracking-widest uppercase">Madurai's Best Service Center</p>
+                    </div>
+                </a>
+
+                <nav class="hidden md:flex space-x-6 font-semibold text-sm">
+                    <a href="index.html" id="nav-home" class="nav-link py-2 text-white hover:text-brand-cyan transition duration-200">Home</a>
+                    <a href="services.html" id="nav-service" class="nav-link py-2 text-white hover:text-brand-cyan transition duration-200">Services</a>
+                    <a href="why-us.html" id="nav-why-us" class="nav-link py-2 text-white hover:text-brand-cyan transition duration-200">Why Choose Us</a>
+                    <a href="about.html" id="nav-about" class="nav-link py-2 text-white hover:text-brand-cyan transition duration-200">About Us</a>
+                    <a href="reviews.html" id="nav-reviews" class="nav-link py-2 text-white hover:text-brand-cyan transition duration-200">Reviews</a>
+                    <a href="faq.html" id="nav-faq" class="nav-link py-2 text-white hover:text-brand-cyan transition duration-200">FAQ</a>
+                </nav>
+
+                <div class="flex items-center space-x-4">
+                    <a href="booking.html" class="hidden sm:inline-flex items-center px-5 py-2.5 rounded-full font-bold text-white gradient-btn text-sm shadow-md active-nav">
+                        <i class="fa-solid fa-calendar-check mr-2"></i> Book Service
+                    </a>
+                    <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="md:hidden text-white hover:text-brand-cyan focus:outline-none text-2xl">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-navy border-t border-blue-900 px-4 pt-2 pb-4 space-y-2 font-medium">
+            <a href="index.html" class="block w-full text-left px-3 py-2 rounded-md hover:bg-blue-900 text-white">Home</a>
+            <a href="services.html" class="block w-full text-left px-3 py-2 rounded-md hover:bg-blue-900 text-white">Services</a>
+            <a href="why-us.html" class="block w-full text-left px-3 py-2 rounded-md hover:bg-blue-900 text-white">Why Choose Us</a>
+            <a href="about.html" class="block w-full text-left px-3 py-2 rounded-md hover:bg-blue-900 text-white">About Us</a>
+            <a href="reviews.html" class="block w-full text-left px-3 py-2 rounded-md hover:bg-blue-900 text-white">Reviews</a>
+            <a href="faq.html" class="block w-full text-left px-3 py-2 rounded-md hover:bg-blue-900 text-white">FAQ</a>
+        </div>
+    </header>
+
+    <main class="flex-grow py-12">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-200">
+                
+                <div class="bg-brand-navy p-6 sm:p-10 text-white text-center relative">
+                    <span class="inline-block px-3 py-1 bg-brand-electricCyan/20 text-brand-electricCyan rounded-full text-xs font-bold uppercase tracking-widest mb-3">Instant Online Booking</span>
+                    <h1 class="text-3xl sm:text-4xl font-extrabold mb-2">Schedule Doorstep Service</h1>
+                    <p class="text-gray-300 text-sm max-w-xl mx-auto">Fill in the details below to confirm your service slot. Our Madurai technician will arrive at your specified time.</p>
+                </div>
+
+                <form id="booking-form" onsubmit="handleBookingSubmit(event)" novalidate class="p-6 sm:p-10 space-y-6">
+                    
+                    <!-- Customer Details Section -->
+                    <div class="space-y-4">
+                        <h3 class="text-lg font-extrabold text-brand-navy border-b border-gray-200 pb-2 flex items-center">
+                            <i class="fa-solid fa-user-gear text-brand-orange mr-2"></i> 1. Contact Information
+                        </h3>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <!-- Full Name -->
+                            <div>
+                                <label for="book-name" class="block text-xs font-bold text-gray-700 uppercase mb-1">Full Name <span class="text-red-500">*</span></label>
+                                <input type="text" id="book-name" required placeholder="Enter your full name" 
+                                       oninput="validateField('book-name')"
+                                       class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-teal text-sm font-semibold text-gray-800">
+                                <p id="err-book-name" class="text-xs text-red-500 font-bold mt-1 hidden"><i class="fa-solid fa-triangle-exclamation mr-1"></i>Please enter your full name.</p>
+                            </div>
+
+                            <!-- Mobile Phone -->
+                            <div>
+                                <label for="book-phone" class="block text-xs font-bold text-gray-700 uppercase mb-1">10-Digit Mobile Number <span class="text-red-500">*</span></label>
+                                <input type="tel" id="book-phone" required placeholder="e.g. 9876543210" maxlength="10"
+                                       oninput="validateField('book-phone')"
+                                       class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-teal text-sm font-semibold text-gray-800">
+                                <p id="err-book-phone" class="text-xs text-red-500 font-bold mt-1 hidden"><i class="fa-solid fa-triangle-exclamation mr-1"></i>Please enter a valid 10-digit mobile number.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Details Section -->
+                    <div class="space-y-4 pt-4">
+                        <h3 class="text-lg font-extrabold text-brand-navy border-b border-gray-200 pb-2 flex items-center">
+                            <i class="fa-solid fa-screwdriver-wrench text-brand-orange mr-2"></i> 2. Service Selection
+                        </h3>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <!-- Service Category -->
+                            <div>
+                                <label for="book-category" class="block text-xs font-bold text-gray-700 uppercase mb-1">Service Category <span class="text-red-500">*</span></label>
+                                <select id="book-category" required onchange="updateSubServiceDropdown(); validateField('book-category')"
+                                        class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-teal text-sm font-semibold text-gray-800 bg-white">
+                                    <option value="">-- Select Category --</option>
+                                    <option value="AC">Air Conditioner (AC)</option>
+                                    <option value="Fridge">Refrigerator (Fridge)</option>
+                                    <option value="Washing Machine">Washing Machine</option>
+                                    <option value="Electrical">Electrical Service</option>
+                                    <option value="Plumbing">Plumbing Service</option>
+                                </select>
+                                <p id="err-book-category" class="text-xs text-red-500 font-bold mt-1 hidden"><i class="fa-solid fa-triangle-exclamation mr-1"></i>Please select a service category.</p>
+                            </div>
+
+                            <!-- Service Type -->
+                            <div>
+                                <label for="book-service" class="block text-xs font-bold text-gray-700 uppercase mb-1">Specific Service <span class="text-red-500">*</span></label>
+                                <select id="book-service" required onchange="validateField('book-service')"
+                                        class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-teal text-sm font-semibold text-gray-800 bg-white">
+                                    <option value="">-- Select Category First --</option>
+                                </select>
+                                <p id="err-book-service" class="text-xs text-red-500 font-bold mt-1 hidden"><i class="fa-solid fa-triangle-exclamation mr-1"></i>Please select a specific service.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Date & Time Slot Section -->
+                    <div class="space-y-4 pt-4">
+                        <h3 class="text-lg font-extrabold text-brand-navy border-b border-gray-200 pb-2 flex items-center">
+                            <i class="fa-solid fa-clock text-brand-orange mr-2"></i> 3. Preferred Date & Time
+                        </h3>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <!-- Date -->
+                            <div>
+                                <label for="book-date" class="block text-xs font-bold text-gray-700 uppercase mb-1">Preferred Date <span class="text-red-500">*</span></label>
+                                <input type="date" id="book-date" required onchange="validateField('book-date')"
+                                       class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-teal text-sm font-semibold text-gray-800 bg-white">
+                                <p id="err-book-date" class="text-xs text-red-500 font-bold mt-1 hidden"><i class="fa-solid fa-triangle-exclamation mr-1"></i>Please choose a date.</p>
+                            </div>
+
+                            <!-- Time Slot -->
+                            <div>
+                                <label for="book-time" class="block text-xs font-bold text-gray-700 uppercase mb-1">Preferred Time Slot <span class="text-red-500">*</span></label>
+                                <select id="book-time" required onchange="validateField('book-time')"
+                                        class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-teal text-sm font-semibold text-gray-800 bg-white">
+                                    <option value="">-- Select Time Slot --</option>
+                                    <option value="Morning (8:00 AM - 12:00 PM)">Morning (8:00 AM - 12:00 PM)</option>
+                                    <option value="Afternoon (12:00 PM - 4:00 PM)">Afternoon (12:00 PM - 4:00 PM)</option>
+                                    <option value="Evening (4:00 PM - 8:00 PM)">Evening (4:00 PM - 8:00 PM)</option>
+                                </select>
+                                <p id="err-book-time" class="text-xs text-red-500 font-bold mt-1 hidden"><i class="fa-solid fa-triangle-exclamation mr-1"></i>Please select a time slot.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Address & Remarks Section -->
+                    <div class="space-y-4 pt-4">
+                        <h3 class="text-lg font-extrabold text-brand-navy border-b border-gray-200 pb-2 flex items-center">
+                            <i class="fa-solid fa-location-dot text-brand-orange mr-2"></i> 4. Address & Issue Details
+                        </h3>
+
+                        <!-- Door Address -->
+                        <div>
+                            <label for="book-address" class="block text-xs font-bold text-gray-700 uppercase mb-1">Full Service Address in Madurai <span class="text-red-500">*</span></label>
+                            <textarea id="book-address" rows="3" required placeholder="House No., Street Name, Area (e.g. KK Nagar, SS Colony, Kalavasal), Madurai" 
+                                      oninput="validateField('book-address')"
+                                      class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-teal text-sm font-semibold text-gray-800"></textarea>
+                            <p id="err-book-address" class="text-xs text-red-500 font-bold mt-1 hidden"><i class="fa-solid fa-triangle-exclamation mr-1"></i>Please enter your full service address.</p>
+                        </div>
+
+                        <!-- Appliance Issue Notes -->
+                        <div>
+                            <label for="book-notes" class="block text-xs font-bold text-gray-700 uppercase mb-1">Issue Description / Additional Notes (Optional)</label>
+                            <textarea id="book-notes" rows="2" placeholder="Describe the problem (e.g., AC not cooling, fridge leaking water, drum noise)" 
+                                      class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-teal text-sm font-semibold text-gray-800"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="pt-6">
+                        <button type="submit" class="w-full py-4 rounded-xl text-white font-extrabold text-base gradient-btn shadow-lg flex items-center justify-center hover:opacity-95 transition">
+                            <i class="fa-solid fa-paper-plane mr-2"></i> Confirm Booking & Open WhatsApp
+                        </button>
+                        <p class="text-center text-xs text-gray-500 mt-3 flex items-center justify-center">
+                            <i class="fa-solid fa-shield-halved text-brand-teal mr-1"></i> 100% Free Cancellation & Zero Advance Charges
+                        </p>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-brand-navy text-white pt-12 pb-6 border-t-4 border-brand-electricCyan mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="pt-6 text-center text-xs text-gray-400 flex flex-col sm:flex-row justify-between items-center">
+                <p>&copy; 2026 FIXYO Home Services. All Rights Reserved.</p>
+                <p class="mt-2 sm:mt-0 text-brand-silver">Contact: +91 8489492406</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>

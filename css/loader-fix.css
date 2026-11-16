@@ -1,0 +1,24 @@
+/* Loader fixes for mobile */
+#website-loader {
+  height: 100vh; /* use viewport height for better mobile handling */
+}
+
+/* Hide the rotating ring */
+.loader-ring {
+  display: none;
+}
+
+/* Pulse animation for the loader symbol */
+.loader-symbol {
+  animation: loaderPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes loaderSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes loaderPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}

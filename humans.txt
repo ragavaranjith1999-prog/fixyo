@@ -1,0 +1,11 @@
+/* TEAM */
+Name: Fixyo Engineering & Design
+Location: Madurai, Tamil Nadu, India
+Contact: +91 8489492406
+Website: https://fixyo.in
+
+/* SITE */
+Standards: HTML5, CSS3, Vanilla JavaScript (ES6+)
+Accessibility: WCAG 2.2 AA
+Performance: Core Web Vitals Optimized
+Deployment: Vercel & GitHub

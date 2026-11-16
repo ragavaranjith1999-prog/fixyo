@@ -1,0 +1,23 @@
+{
+  "name": "Fixyo - Home Appliance Service",
+  "short_name": "Fixyo",
+  "description": "Professional AC, Refrigerator, Washing Machine, Electrical, and Plumbing Service in Madurai.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0B192C",
+  "theme_color": "#0B192C",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/images/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

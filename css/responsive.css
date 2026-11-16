@@ -1,0 +1,256 @@
+/* ==========================================================================
+   FIXYO - Responsive Stylesheet
+   Mobile-First & Fluid Breakpoint Adjustments
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Medium Screens / Tablets (< 1024px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1024px) {
+  :root {
+    --header-height: 70px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero-cta-group {
+    justify-content: center;
+  }
+
+  .hero-trust-bar {
+    justify-content: center;
+  }
+
+  .hero-visual {
+    margin: 20px auto 0;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+  }
+
+  .location-card {
+    grid-template-columns: 1fr;
+  }
+
+  .booking-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Mobile Navigation & Small Tablets (< 768px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .hero-title {
+    font-size: 2.35rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.0625rem;
+  }
+
+  .section-title {
+    font-size: 1.85rem;
+  }
+
+  /* Hamburger Navigation Toggle */
+  .mobile-nav-toggle {
+    display: block;
+    z-index: 1001;
+  }
+
+  .mobile-nav-toggle.open .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .mobile-nav-toggle.open .hamburger-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobile-nav-toggle.open .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background: #ffffff;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+    align-items: stretch;
+    padding: 90px 24px 32px;
+    gap: 12px;
+    overflow-y:hidden; 
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 1000;
+  }
+
+  .nav-menu.open {
+    transform: translateX(0);
+  }
+
+  .nav-link {
+    padding: 12px 16px;
+    font-size: 1.0625rem;
+    border-radius: var(--radius-md);
+  }
+
+  /* Mobile Dropdown */
+  .dropdown-menu {
+    position: static;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    background: var(--bg-subtle);
+    border-radius: var(--radius-sm);
+    padding: 4px 0 4px 12px;
+    display: none;
+  }
+
+  .nav-item.dropdown.open .dropdown-menu {
+    display: block;
+  }
+
+  .header-actions .header-cta {
+    display: none; /* Keep mobile header clean; CTA is in mobile drawer & hero */
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .location-info-pane,
+  .location-visual-pane {
+    padding: 28px 20px;
+  }
+
+  .booking-form-card {
+    padding: 24px 20px;
+  }
+
+  .floating-contact-group {
+    bottom: 16px;
+    right: 16px;
+    gap: 10px;
+  }
+
+  .floating-btn {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Small Mobile Phones (< 480px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .service-card-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-bottom-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .floating-badge {
+    position: static;
+    margin-top: 12px;
+    width: 100%;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Additional Mobile Fixes (≤480px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  /* Ensure containers expand to full width */
+  .hero-content,
+  .hero-card-preview,
+  .modal-box,
+  .faq-accordion,
+  .page-hero-desc {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 1rem !important;
+  }
+
+  /* Reduce font sizes for readability */
+  .hero-title {
+    font-size: 1.8rem !important;
+  }
+  .hero-subtitle {
+    font-size: 1rem !important;
+  }
+  .section-title {
+    font-size: 1.5rem !important;
+  }
+
+  /* Collapse grids to single column */
+  .services-grid,
+  .features-grid,
+  .reviews-list-grid,
+  .process-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Adjust header padding and logo size */
+  .brand-logo-img {
+    height: 36px !important;
+  }
+}

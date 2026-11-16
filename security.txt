@@ -1,0 +1,5 @@
+Contact: tel:+918489492406
+Preferred-Languages: en, ta
+Canonical: https://fixyo.in/security.txt
+Expires: 2027-12-31T23:59:59.000Z
+Policy: https://fixyo.in/privacy-policy.html

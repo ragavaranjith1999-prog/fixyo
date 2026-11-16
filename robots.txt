@@ -1,0 +1,6 @@
+# Fixyo - Home Appliance Service Robots Configuration
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://fixyo.in/sitemap.xml

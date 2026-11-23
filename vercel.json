@@ -1,3 +1,10 @@
+"redirects": [
+  {
+    "source": "/why-us.html",
+    "destination": "/why-choose-us",
+    "permanent": true
+  }
+],
 {
   "version": 2,
   "cleanUrls": true,

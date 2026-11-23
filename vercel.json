@@ -1,14 +1,15 @@
-"redirects": [
-  {
-    "source": "/why-us.html",
-    "destination": "/why-choose-us",
-    "permanent": true
-  }
-],
+
 {
   "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/why-us.html",
+      "destination": "/why-choose-us",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
